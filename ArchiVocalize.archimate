@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<archimate:model xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:archimate="http://www.archimatetool.com/archimate" name="Vocalize" id="id-1530563f6c2a41fa8f96df3083078bb6" version="5.0.0">
+  <folder name="Strategy" id="id-4a30be64b2c64badb28c626765041117" type="strategy"/>
+  <folder name="Business" id="id-d409e14c723b4e0c952385975fa5b843" type="business"/>
+  <folder name="Application" id="id-81d0ba20be3d4ab3b52dcbd9ac54d45d" type="application"/>
+  <folder name="Technology &amp; Physical" id="id-a5eb9ccef44c45b49439c4c694aae781" type="technology"/>
+  <folder name="Motivation" id="id-12cb72ef8193445fa965f7e2af02bb52" type="motivation">
+    <element xsi:type="archimate:Stakeholder" name="FIAP + Plusoft " id="id-8fb112968ccf43de9ffbca3dbd46e344"/>
+    <element xsi:type="archimate:Driver" name="Criar uma tecnologia envolvendo ou chatGPT ou Realizade Virtual na &quot;Costumer Experience&quot;" id="id-d60ae76e00d749d59cf33126f0238b72"/>
+    <element xsi:type="archimate:Value" name="Value" id="id-3b770a49054e4daaad1a0860befa3d05"/>
+    <element xsi:type="archimate:Value" name="Value (copy)" id="id-51b986dd67804742bee397b8e1bd4144"/>
+    <element xsi:type="archimate:Meaning" name="Meaning" id="id-b775dafe31974b85aa59ba0a3491dd70"/>
+    <element xsi:type="archimate:Value" name="Aumentará a retenção de clientes (renovação de contratos). Perdemos em média R$120.000 de contratos cancelados por insatisfação contratos com o suporte técnico aos nossos produtos" id="id-9a7e3ac11ce1474d9b3b0558a0038090"/>
+  </folder>
+  <folder name="Implementation &amp; Migration" id="id-0d017eeef93e47cb8bfc1d800757ba8d" type="implementation_migration"/>
+  <folder name="Other" id="id-b38121d6fa4b4ca389f63f6de151668c" type="other"/>
+  <folder name="Relations" id="id-1325be14dd984f4f92a92d534d00ac00" type="relations">
+    <element xsi:type="archimate:AssociationRelationship" id="id-3daca7293b9c400b89dd2c6f26d4d84c" source="id-8fb112968ccf43de9ffbca3dbd46e344" target="id-d60ae76e00d749d59cf33126f0238b72"/>
+  </folder>
+  <folder name="Views" id="id-a669a381e39e4f6dba664004bf781899" type="diagrams">
+    <element xsi:type="archimate:ArchimateDiagramModel" name="Default View" id="id-eeddd100edca4099ad92adbab7b49a1e">
+      <child xsi:type="archimate:DiagramObject" id="id-7a625ea8b44d4a30badd83d6e9c300b3" archimateElement="id-8fb112968ccf43de9ffbca3dbd46e344">
+        <bounds x="237" y="63" width="148" height="34"/>
+        <sourceConnection xsi:type="archimate:Connection" id="id-b06338fa95e2452b803a7906a8884c50" source="id-7a625ea8b44d4a30badd83d6e9c300b3" target="id-b08d828cbcaa443e96c70a055c79666c" archimateRelationship="id-3daca7293b9c400b89dd2c6f26d4d84c"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-b08d828cbcaa443e96c70a055c79666c" targetConnections="id-b06338fa95e2452b803a7906a8884c50" archimateElement="id-d60ae76e00d749d59cf33126f0238b72">
+        <bounds x="432" y="63" width="172" height="83"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0c94c361c7e24521a61cf9992c8f1d7f" archimateElement="id-3b770a49054e4daaad1a0860befa3d05">
+        <bounds x="2712" y="3528" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-1c1b3b30ccf1418f9c3edf7d5bc29d62" archimateElement="id-51b986dd67804742bee397b8e1bd4144">
+        <bounds x="-1260" y="3888" width="120" height="55"/>
+      </child>
+      <child xsi:type="archimate:DiagramObject" id="id-0e503facdbe54bb39d8adf28fdb5bc06" archimateElement="id-9a7e3ac11ce1474d9b3b0558a0038090" type="1">
+        <bounds x="1088" y="205" width="205" height="109"/>
+      </child>
+    </element>
+  </folder>
+</archimate:model>
